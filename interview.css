@@ -1,0 +1,325 @@
+/* FOR THE WHOLE PAGE */
+body {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #fafafa;
+    background-image: url('img/interview%20background.png');
+    /* IMAGE FROM ERYN'S WEBSITE*/
+    background-repeat: repeat;
+}
+
+    ::selection {
+        color: #B9121B
+}
+
+/* MENU BAR */
+.navbar {
+    font-size: larger;
+    background-color: white;
+    color: olive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: olive;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #b9121b;
+}
+
+
+
+/* TEXTBLOCK INTERVIEW*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.textblock1 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock1:hover {
+        transform: scale(1.025);
+        z-index: 5;
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock2 {
+    
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock2:hover {
+        transform: scale(1.025);
+        z-index: 5;
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock3 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock3:hover {
+        transform: scale(1.025);
+        z-index: 5;
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock4 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock4:hover {
+        transform: scale(1.025);
+        z-index: 5;
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock5 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock5:hover {
+        transform: scale(1.025);
+        z-index: 5;
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock6 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock6:hover {
+        transform: scale(1.025);
+        z-index: 5; 
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock7 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock7:hover {
+        transform: scale(1.025);
+        z-index: 5; 
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock8 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock8:hover {
+        transform: scale(1.025);
+        z-index: 5; 
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock9 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock9:hover {
+        transform: scale(1.025);
+        z-index: 5; 
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock10 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock10:hover {
+        transform: scale(1.025);
+        z-index: 5; 
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.textblock11 {
+    width: 1000px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+    .textblock11:hover {
+        transform: scale(1.025);
+        z-index: 5; 
+        box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+/* BUTTON */
+a.button {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    top: 90%; 
+    right: 0;
+    width: 5vw;
+    position: fixed;
+    background-color: olive;
+    border: auto;
+    padding: 8px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #b9121b;
+}
+
+
+/* POPUP BUTTON */
+button { 
+    display: inline-block;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 70%; 
+    left: 85%;
+    background-color: olive;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-button:hover .popup-box {
+      background-color: #B9121B;
+      opacity: 95%;
+      display: block;
+      box-shadow: 0 0 15px #b9121b, 0 0 30px olive;
+}
+
+.popup-box {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  display: none; 
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #B9121B;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px lightgrey;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+/* FOOTER*/
+footer {
+    color: lightgray;
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+  a {
+     color: darkblue;
+     text-decoration: none;
+      }
+
+  a:hover {
+    color: lightgrey;
+  }
+
+

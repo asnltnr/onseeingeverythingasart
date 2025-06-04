@@ -1,0 +1,112 @@
+/* FOR THE WHOLE PAGE */
+    body {
+        margin: 0; 
+        font-family: 'Space Grotesk', sans-serif;
+        background-color: white;
+}
+
+/* MENU BAR */
+    .navbar {
+      font-size: larger;
+      background-color: white;
+      color: darkgreen;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+}
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+}
+
+    .logo:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+}
+
+    .nav-links li a {
+      text-decoration: none;
+      color: darkgreen;
+      font-weight: 500;
+      transition: color 0.3s ease;
+}
+
+    .nav-links li a:hover {
+      color: #B9121B;
+}
+
+/* FOTOCOLLAGE */
+.collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 1000px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin: auto;
+  background: white;
+  border: 0.5px solid darkgreen;
+  border-radius: 3px;
+  box-shadow: 0 0 3px lightgrey, 0 0 5px darkgreen;
+}
+
+.collage img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  object-fit: cover;
+  transition: transfrom 0.3s ease-in, z-index 1s;
+}
+
+ .collage img:hover {
+      transform: scale(1.6);
+      z-index: 15;
+      box-shadow: 0 0 5px lightgrey, 0 0 15px darkgreen;
+    }
+
+  section { 
+      font-size: 14px;
+      text-align: center;
+      width: 60vw;
+      margin: auto;
+      /*margin-left: 155px;
+      margin-right: 155px;*/
+}
+
+h4 {  text-align: center;
+      color: darkgreen;
+}
+
+/* FOOTER*/
+  footer { 
+      line-height: initial;
+      font-size: small;
+      margin-top: 50px; 
+      margin-bottom: 20px;
+      text-align: center;
+}
+
+  a {
+     color: darkgreen;
+     text-decoration: none;
+}
+
+  a:hover {
+    color: #B9121B;
+}
